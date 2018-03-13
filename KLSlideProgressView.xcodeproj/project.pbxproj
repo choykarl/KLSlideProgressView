@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CBB327052057FDF20029029E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327042057FDF20029029E /* AppDelegate.swift */; };
-		CBB327072057FDF20029029E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327062057FDF20029029E /* ViewController.swift */; };
 		CBB3270A2057FDF20029029E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB327082057FDF20029029E /* Main.storyboard */; };
 		CBB3270C2057FDF20029029E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB3270B2057FDF20029029E /* Assets.xcassets */; };
 		CBB3270F2057FDF20029029E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB3270D2057FDF20029029E /* LaunchScreen.storyboard */; };
+		CBB327182057FE110029029E /* KLSlideProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327162057FE110029029E /* KLSlideProgressView.swift */; };
+		CBB327192057FE110029029E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327172057FE110029029E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CBB327012057FDF20029029E /* KLSlideProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLSlideProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB327042057FDF20029029E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBB327062057FDF20029029E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBB327092057FDF20029029E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBB3270B2057FDF20029029E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB3270E2057FDF20029029E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBB327102057FDF20029029E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB327162057FE110029029E /* KLSlideProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLSlideProgressView.swift; sourceTree = "<group>"; };
+		CBB327172057FE110029029E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				CBB327042057FDF20029029E /* AppDelegate.swift */,
-				CBB327062057FDF20029029E /* ViewController.swift */,
+				CBB327172057FE110029029E /* ViewController.swift */,
+				CBB327162057FE110029029E /* KLSlideProgressView.swift */,
 				CBB327082057FDF20029029E /* Main.storyboard */,
 				CBB3270B2057FDF20029029E /* Assets.xcassets */,
 				CBB3270D2057FDF20029029E /* LaunchScreen.storyboard */,
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB327072057FDF20029029E /* ViewController.swift in Sources */,
+				CBB327192057FE110029029E /* ViewController.swift in Sources */,
+				CBB327182057FE110029029E /* KLSlideProgressView.swift in Sources */,
 				CBB327052057FDF20029029E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
